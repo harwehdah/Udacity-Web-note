@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Note</title>
+</head>
+<body>
+    
+<h1>My HTML Notes</h1>
+<p> HTML document are the building block of web pages. it includes text that the user will read on the browser, images, videos and links to other pages. </p>
+<p> markup tells the browser what the text should look like or how it is arranged.
+it can also include other documents files, references, images.</p> <br>
+<em>this is em-tag: used to italicize text in html</em> <br>
+the HTML element includes the html tags and content <h4> this is an element enclosed by h4 tags</h4>
+<p> The Paragraph tag is use to write text in html the p element is used in writing paragraph with an opening and closing tag.</p>
+ <p>This is a Paragraph</p>
+ <h4>Typographic element</h4>
+ <p>They tell the browser to display text in a different way. examples include: mark, em, sub, sup, etc.</p>
+ <p>sub and sup stand for "subscript" and "superscript". Originally, HTML started out as a tool for scientific and academic work; and these are really useful for science and math, like writing x2+3x+4 = 1 or chemical formulas like H2O.</p>
+ <h4>Nesting</h4>
+ <p>element in html can go inside another element by following some certain rules. the top level element are usually the container for other element. <mark> this is an example of nesting a mark element inside a paragraph</mark></p>
+ <h3>Block and Inline element</h3>
+ <p style="border: 1px solid red;">elements like headings, paragraph are called block element because they create an invisible box (with height, width, and margin) around its content. other examples include: list, video, table, and div</p>
+ <p>element like em, br, strong, mark, anchor, img, span, that don't create a block are called<span style="background-color: yellow;"> inline element.</span> </p>
+ <h3>List item</h3>
+ <p>the li element is used to create a list item and it must be contained within an ol or ul opening and closing tags. to create an ordered list item we use ol while ul is used to create an unordered list item. <br>
+the closing tag of li is optional same as the p element. when the closing tags are not used for this two element the browser knows where their content stop when it sees another opening tag since this two element can not contain another element.</p>
+<h4>Web Development categories with tools</h4>
+<ol>
+    <li> Front-End development
+        <ul>
+            <li>HTML</li> 
+            <li>CSS</li>
+            <li>JavaScript</li>
+        </ul>
+    </li>
+    <li> BackEnd development
+        <ul>
+            <li>PHP</li> 
+            <li>JavaScript</li>
+            <li>MySQL</li>
+        </ul>
+    </li>
+    
+</ol>
+<h3>Link and the anchor tags</h3>
+a is the element used for making list, it is called anchor. the opening anchor tag takes the href attribute and value (which is the url).
+<img src="image/Anchorsyntax.png" alt="Link syntax">
+<p>here is a link to udacity page <a href="https://learn.udacity.com/nanodegrees"> udacity page</a>  </p>
+<h3>Adding images</h3>
+the img element is used to add images to web pages. it consists of two attributes which are src and alt attributes. the src takes the a value which is the image source while the alt attribute is used for image description. the img element is an inline and void element (no content and no closing tag).
+<p><strong>In order for a link to refer to a different web site, it has to be an absolute URL. Relative url are links without the http or https.</strong></p>
+<p>Sometimes when you're working on a Web page, you don't know what images you're going to use, but you still want a picture to use as a place holder. <br>
+
+ Websites like placebear.com and placekitten.com are designed to make this super easy. All you have to do to get an image of any given size is put the width and height of the image at the end of the URL, as in https://placebear.com/200/300.</p>
+ <hr>
+<img src="https://placebear.com/200/200" alt="A picture of a bear.">
+<hr>
+
+<img src="https://placekitten.com/200/150" alt="A picture of a kitten.">
+<hr>
+<p>you can find other similar sites by doing a search for "image placeholder" and you'll find that there are gazillions more of them out there—like Lorem Picsum and FillMurray.com</p>
+<h3>Opening a link on a new tab </h3>
+<p>if you click on one of them, it will open in a new browser tab. If you want to do this in your own links, you can add the attribute target="_blank" to the a element.</p>
+<p>My favorite things:</p>
+<ol> 
+  <li> <a href= " https://placebear.com/150/150" target= "_blank"> Bears </a></li>
+ <li> <a href= " https://placekitten.com/150/150" target= "_blank"> Kittens</a></li>
+   </ol><br> 
+  <img src = "https://placebear.com/150/150" alt ="A Bear picture"> 
+<img src = "https://placekitten.com/150/150" alt ="A Bear picture">
+<h4>HTML snippet</h4>
+<p> The html document contains two important part: 
+    <ol><li>The Head</li>
+        <li>The Body</li>
+    </ol>
+
+    <div>The image  below describe the first part <br>
+        <img src="image/HTMLsnippet.png" alt="Html head snippet">
+    </div> 
+
+
+</body>
+</html>
